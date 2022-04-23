@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+    background-color: aqua;
+    background-image: url("https://imgs.search.brave.com/_YbpUEurRVPBBZGY0CB-YAJwJv_94GPx-a28n-xnP6s/rs:fit:1200:1200:1/g:ce/aHR0cDovL2dldHdh/bGxwYXBlcnMuY29t/L3dhbGxwYXBlci9m/dWxsLzcvYy83LzYy/NDE2NS5qcGc");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;    
+    object-fit: cover;
+    transition: all 0.5 ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
